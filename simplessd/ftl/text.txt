@@ -1,0 +1,4 @@
+run ./config/sample.cfg ./simplessd/config/sample.cfg ./result > ./CachedPagesPerBlock/cachedWeightNewFTL.txt
+run ./config/sample.cfg ./simplessd/config/sample.cfg ./result > ./finalRun/NonCached_64Ram/src1_2_debug.txt
+https://adda247jobs-wp-assets-adda247.s3.ap-south-1.amazonaws.com/jobs/wp-content/uploads/sites/13/2023/05/16125604/JKSET-Previous-Year-Question-Paper-Computer-Science-Applications_.pdf
+run ./config/sample.cfg ./simplessd/config/sample.cfg ./result > ./finalRun/NonCached_64Ram/checkingEvictLines.txt

@@ -1,0 +1,9 @@
+/home/aman/Simple_SSD/SimpleSSD-Standalone/CMakeFiles/simplessd-standalone.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/CMakeFiles/edit_cache.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/CMakeFiles/rebuild_cache.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/simplessd/CMakeFiles/simplessd.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/simplessd/CMakeFiles/edit_cache.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/simplessd/CMakeFiles/rebuild_cache.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/simplessd/lib/mcpat/CMakeFiles/mcpat.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/simplessd/lib/mcpat/CMakeFiles/edit_cache.dir
+/home/aman/Simple_SSD/SimpleSSD-Standalone/simplessd/lib/mcpat/CMakeFiles/rebuild_cache.dir

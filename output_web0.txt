@@ -1,0 +1,2875 @@
+SimpleSSD Standalone v2.0
+Channel |   Way   |   Die   |  Plane  |  Block  |   Page  
+      1 |       4 |       4 |      32 |     256 |     256
+Multi-plane mode disabled
+SuperPageSize 4096
+VictimBlockSelctionPolicy: LruPolicy
+DeadOnArrivalPredictior: Disabled
+Total physical blocks 131072
+Total logical blocks 104857
+Logical page size 4096
+Max prefect 512
+CMTSize: 65568
+ShadowCacheSize: 3278
+predictionThrushold: 2
+Total LogicalPages: 26843392
+WarmUp Pages: 25501222
+PagesToInvalidate: 0
+pages avaialbe for writes 1342170
+Ration of free blocks available Before Warmup 0.996094 nFreeBlocks 130560 Pages 33423360
+Valid Pages 16462029 Invalid Page 9038899
+Ration of free blocks available After Warmup 0.240013 nFreeBlocks 31459 Pages 8053504
+Set size 1 | Way size 16384 | Line size 4096 | Capacity 64 MB | Lines Superpage 1
+Set size 1 | GhostWays 1 | Line size 4096 | GhostCacheSize 0 MB | Lines Superpage 1
+Value of parallelIO: 512
+CacheEvictionPolicy: LRU
+CacheEvictionPolicyAtGC: POLICY_LFU
+**********it is NONE interface******************
+Stats for the Trace: /home/aman/Simple_SSD/web_0.txt
+********** Begin of simulation **********
+SIL::None::Driver: Total SSD capacity: 102 GB
+==============================================STATS==============================================
+25518630 Writes Completed, 10000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.551399, and variance: 1.057838
+Regular Table: 125.648689 MB, LeaFTL Table: 80.072862 MB
+Size Reduction: 36.272426%
+==============================================STATS==============================================
+25524774 Writes Completed, 20000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.553954, and variance: 1.070696
+Regular Table: 125.666435 MB, LeaFTL Table: 80.090421 MB
+Size Reduction: 36.267452%
+==============================================STATS==============================================
+25527846 Writes Completed, 30000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.554937, and variance: 1.077943
+Regular Table: 125.675598 MB, LeaFTL Table: 80.100211 MB
+Size Reduction: 36.264309%
+==============================================STATS==============================================
+25527846 Writes Completed, 40000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.554937, and variance: 1.077943
+Regular Table: 125.675598 MB, LeaFTL Table: 80.100211 MB
+Size Reduction: 36.264309%
+==============================================STATS==============================================
+25528358 Writes Completed, 50000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.555242, and variance: 1.080119
+Regular Table: 125.677032 MB, LeaFTL Table: 80.101597 MB
+Size Reduction: 36.263934%
+==============================================STATS==============================================
+25528358 Writes Completed, 60000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.555242, and variance: 1.080119
+Regular Table: 125.677032 MB, LeaFTL Table: 80.101597 MB
+Size Reduction: 36.263934%
+==============================================STATS==============================================
+25528358 Writes Completed, 70000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.555242, and variance: 1.080119
+Regular Table: 125.677032 MB, LeaFTL Table: 80.101597 MB
+Size Reduction: 36.263934%
+==============================================STATS==============================================
+25528358 Writes Completed, 80000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.555242, and variance: 1.080119
+Regular Table: 125.677032 MB, LeaFTL Table: 80.101597 MB
+Size Reduction: 36.263934%
+==============================================STATS==============================================
+25528870 Writes Completed, 90000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.555538, and variance: 1.081957
+Regular Table: 125.678490 MB, LeaFTL Table: 80.103097 MB
+Size Reduction: 36.263479%
+==============================================STATS==============================================
+25529382 Writes Completed, 100000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.555900, and variance: 1.083893
+Regular Table: 125.679916 MB, LeaFTL Table: 80.104531 MB
+Size Reduction: 36.263061%
+==============================================STATS==============================================
+25529894 Writes Completed, 110000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.556329, and variance: 1.085612
+Regular Table: 125.681305 MB, LeaFTL Table: 80.105926 MB
+Size Reduction: 36.262656%
+==============================================STATS==============================================
+25529894 Writes Completed, 120000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.556329, and variance: 1.085612
+Regular Table: 125.681305 MB, LeaFTL Table: 80.105926 MB
+Size Reduction: 36.262656%
+==============================================STATS==============================================
+25530406 Writes Completed, 130000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.556758, and variance: 1.086512
+Regular Table: 125.682762 MB, LeaFTL Table: 80.107303 MB
+Size Reduction: 36.262299%
+==============================================STATS==============================================
+25530406 Writes Completed, 140000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.556758, and variance: 1.086512
+Regular Table: 125.682762 MB, LeaFTL Table: 80.107303 MB
+Size Reduction: 36.262299%
+==============================================STATS==============================================
+25530406 Writes Completed, 150000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.556758, and variance: 1.086512
+Regular Table: 125.682762 MB, LeaFTL Table: 80.107303 MB
+Size Reduction: 36.262299%
+==============================================STATS==============================================
+25530918 Writes Completed, 160000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 170000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 180000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 190000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 200000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 210000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 220000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 230000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 240000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 250000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 260000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 270000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 280000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 290000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 300000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 310000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25530918 Writes Completed, 320000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.557168, and variance: 1.087052
+Regular Table: 125.684219 MB, LeaFTL Table: 80.108685 MB
+Size Reduction: 36.261938%
+==============================================STATS==============================================
+25531942 Writes Completed, 330000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.558027, and variance: 1.088602
+Regular Table: 125.687263 MB, LeaFTL Table: 80.111699 MB
+Size Reduction: 36.261084%
+==============================================STATS==============================================
+25549350 Writes Completed, 340000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.571598, and variance: 1.154401
+Regular Table: 125.738205 MB, LeaFTL Table: 80.166639 MB
+Size Reduction: 36.243213%
+==============================================STATS==============================================
+25549350 Writes Completed, 350000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.571598, and variance: 1.154401
+Regular Table: 125.738205 MB, LeaFTL Table: 80.166639 MB
+Size Reduction: 36.243213%
+==============================================STATS==============================================
+25562662 Writes Completed, 360000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.578216, and variance: 1.208334
+Regular Table: 125.757256 MB, LeaFTL Table: 80.216995 MB
+Size Reduction: 36.212829%
+==============================================STATS==============================================
+25604134 Writes Completed, 370000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.637993, and variance: 1.532173
+Regular Table: 125.834946 MB, LeaFTL Table: 80.353985 MB
+Size Reduction: 36.143347%
+==============================================STATS==============================================
+25628710 Writes Completed, 380000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.653929, and variance: 1.789226
+Regular Table: 125.856567 MB, LeaFTL Table: 80.450765 MB
+Size Reduction: 36.077420%
+completed 1000000 Requests
+==============================================STATS==============================================
+25651238 Writes Completed, 390000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.670580, and variance: 2.093327
+Regular Table: 125.864403 MB, LeaFTL Table: 80.533671 MB
+Size Reduction: 36.015530%
+==============================================STATS==============================================
+25660966 Writes Completed, 400000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.676407, and variance: 2.244497
+Regular Table: 125.865936 MB, LeaFTL Table: 80.568938 MB
+Size Reduction: 35.988290%
+==============================================STATS==============================================
+25675302 Writes Completed, 410000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.686297, and variance: 2.405205
+Regular Table: 125.879280 MB, LeaFTL Table: 80.620108 MB
+Size Reduction: 35.954426%
+==============================================STATS==============================================
+25675302 Writes Completed, 420000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.686297, and variance: 2.405205
+Regular Table: 125.879280 MB, LeaFTL Table: 80.620108 MB
+Size Reduction: 35.954426%
+==============================================STATS==============================================
+25711654 Writes Completed, 430000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.714707, and variance: 2.954772
+Regular Table: 125.904037 MB, LeaFTL Table: 80.757390 MB
+Size Reduction: 35.857982%
+==============================================STATS==============================================
+25715238 Writes Completed, 440000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.717167, and variance: 2.961968
+Regular Table: 125.914032 MB, LeaFTL Table: 80.770430 MB
+Size Reduction: 35.852718%
+==============================================STATS==============================================
+25715238 Writes Completed, 450000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.717167, and variance: 2.961968
+Regular Table: 125.914032 MB, LeaFTL Table: 80.770430 MB
+Size Reduction: 35.852718%
+==============================================STATS==============================================
+25715238 Writes Completed, 460000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.717167, and variance: 2.961968
+Regular Table: 125.914032 MB, LeaFTL Table: 80.770430 MB
+Size Reduction: 35.852718%
+==============================================STATS==============================================
+25715238 Writes Completed, 470000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.717167, and variance: 2.961968
+Regular Table: 125.914032 MB, LeaFTL Table: 80.770430 MB
+Size Reduction: 35.852718%
+==============================================STATS==============================================
+25715750 Writes Completed, 480000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.717501, and variance: 2.962854
+Regular Table: 125.915466 MB, LeaFTL Table: 80.772278 MB
+Size Reduction: 35.851981%
+==============================================STATS==============================================
+25716262 Writes Completed, 490000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.717892, and variance: 2.964061
+Regular Table: 125.916954 MB, LeaFTL Table: 80.774158 MB
+Size Reduction: 35.851246%
+==============================================STATS==============================================
+25717286 Writes Completed, 500000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.718560, and variance: 2.966222
+Regular Table: 125.919998 MB, LeaFTL Table: 80.777911 MB
+Size Reduction: 35.849815%
+==============================================STATS==============================================
+25718310 Writes Completed, 510000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.718931, and variance: 2.967564
+Regular Table: 125.922707 MB, LeaFTL Table: 80.781788 MB
+Size Reduction: 35.848117%
+==============================================STATS==============================================
+25718822 Writes Completed, 520000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 530000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 540000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 550000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 560000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 570000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 580000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 590000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 600000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25718822 Writes Completed, 610000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719342, and variance: 2.969117
+Regular Table: 125.923988 MB, LeaFTL Table: 80.783710 MB
+Size Reduction: 35.847244%
+==============================================STATS==============================================
+25719334 Writes Completed, 620000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 630000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 640000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 650000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 660000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 670000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 680000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 690000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719334 Writes Completed, 700000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719551, and variance: 2.969931
+Regular Table: 125.925240 MB, LeaFTL Table: 80.785624 MB
+Size Reduction: 35.846361%
+==============================================STATS==============================================
+25719846 Writes Completed, 710000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719952, and variance: 2.971487
+Regular Table: 125.926582 MB, LeaFTL Table: 80.787601 MB
+Size Reduction: 35.845474%
+==============================================STATS==============================================
+25719846 Writes Completed, 720000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719952, and variance: 2.971487
+Regular Table: 125.926582 MB, LeaFTL Table: 80.787601 MB
+Size Reduction: 35.845474%
+==============================================STATS==============================================
+25719846 Writes Completed, 730000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719952, and variance: 2.971487
+Regular Table: 125.926582 MB, LeaFTL Table: 80.787601 MB
+Size Reduction: 35.845474%
+==============================================STATS==============================================
+25719846 Writes Completed, 740000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719952, and variance: 2.971487
+Regular Table: 125.926582 MB, LeaFTL Table: 80.787601 MB
+Size Reduction: 35.845474%
+==============================================STATS==============================================
+25719846 Writes Completed, 750000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719952, and variance: 2.971487
+Regular Table: 125.926582 MB, LeaFTL Table: 80.787601 MB
+Size Reduction: 35.845474%
+==============================================STATS==============================================
+25719846 Writes Completed, 760000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719952, and variance: 2.971487
+Regular Table: 125.926582 MB, LeaFTL Table: 80.787601 MB
+Size Reduction: 35.845474%
+==============================================STATS==============================================
+25720358 Writes Completed, 770000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.720209, and variance: 2.972668
+Regular Table: 125.928009 MB, LeaFTL Table: 80.789531 MB
+Size Reduction: 35.844669%
+==============================================STATS==============================================
+25720870 Writes Completed, 780000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.720505, and variance: 2.973955
+Regular Table: 125.929474 MB, LeaFTL Table: 80.791504 MB
+Size Reduction: 35.843849%
+==============================================STATS==============================================
+25721382 Writes Completed, 790000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.720772, and variance: 2.975195
+Regular Table: 125.930763 MB, LeaFTL Table: 80.793440 MB
+Size Reduction: 35.842968%
+==============================================STATS==============================================
+25721894 Writes Completed, 800000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.721106, and variance: 2.976721
+Regular Table: 125.931999 MB, LeaFTL Table: 80.795309 MB
+Size Reduction: 35.842114%
+==============================================STATS==============================================
+25722918 Writes Completed, 810000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.721526, and variance: 2.979485
+Regular Table: 125.934647 MB, LeaFTL Table: 80.799116 MB
+Size Reduction: 35.840439%
+==============================================STATS==============================================
+25722918 Writes Completed, 820000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.721526, and variance: 2.979485
+Regular Table: 125.934647 MB, LeaFTL Table: 80.799116 MB
+Size Reduction: 35.840439%
+==============================================STATS==============================================
+25723430 Writes Completed, 830000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.721754, and variance: 2.981299
+Regular Table: 125.935867 MB, LeaFTL Table: 80.800991 MB
+Size Reduction: 35.839572%
+==============================================STATS==============================================
+25723430 Writes Completed, 840000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.721754, and variance: 2.981299
+Regular Table: 125.935867 MB, LeaFTL Table: 80.800991 MB
+Size Reduction: 35.839572%
+==============================================STATS==============================================
+25723430 Writes Completed, 850000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.721754, and variance: 2.981299
+Regular Table: 125.935867 MB, LeaFTL Table: 80.800991 MB
+Size Reduction: 35.839572%
+==============================================STATS==============================================
+25723942 Writes Completed, 860000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722145, and variance: 2.984182
+Regular Table: 125.937119 MB, LeaFTL Table: 80.802954 MB
+Size Reduction: 35.838651%
+==============================================STATS==============================================
+25723942 Writes Completed, 870000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722145, and variance: 2.984182
+Regular Table: 125.937119 MB, LeaFTL Table: 80.802954 MB
+Size Reduction: 35.838651%
+==============================================STATS==============================================
+25723942 Writes Completed, 880000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722145, and variance: 2.984182
+Regular Table: 125.937119 MB, LeaFTL Table: 80.802954 MB
+Size Reduction: 35.838651%
+==============================================STATS==============================================
+25723942 Writes Completed, 890000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722145, and variance: 2.984182
+Regular Table: 125.937119 MB, LeaFTL Table: 80.802954 MB
+Size Reduction: 35.838651%
+==============================================STATS==============================================
+25723942 Writes Completed, 900000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722145, and variance: 2.984182
+Regular Table: 125.937119 MB, LeaFTL Table: 80.802954 MB
+Size Reduction: 35.838651%
+==============================================STATS==============================================
+25724454 Writes Completed, 910000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724454 Writes Completed, 920000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724454 Writes Completed, 930000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724454 Writes Completed, 940000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724454 Writes Completed, 950000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724454 Writes Completed, 960000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724454 Writes Completed, 970000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724454 Writes Completed, 980000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722412, and variance: 2.986565
+Regular Table: 125.938309 MB, LeaFTL Table: 80.804918 MB
+Size Reduction: 35.837698%
+==============================================STATS==============================================
+25724966 Writes Completed, 990000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.722718, and variance: 2.989721
+Regular Table: 125.939377 MB, LeaFTL Table: 80.806857 MB
+Size Reduction: 35.836702%
+==============================================STATS==============================================
+25725478 Writes Completed, 1000000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723128, and variance: 2.994427
+Regular Table: 125.940384 MB, LeaFTL Table: 80.808789 MB
+Size Reduction: 35.835681%
+==============================================STATS==============================================
+25725990 Writes Completed, 1010000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1020000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1030000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1040000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1050000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1060000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1070000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1080000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1090000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1100000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1110000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1120000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1130000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1140000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1150000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1160000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1170000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1180000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1190000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25725990 Writes Completed, 1200000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723347, and variance: 2.998055
+Regular Table: 125.941338 MB, LeaFTL Table: 80.810741 MB
+Size Reduction: 35.834617%
+==============================================STATS==============================================
+25726502 Writes Completed, 1210000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723557, and variance: 3.002086
+Regular Table: 125.942245 MB, LeaFTL Table: 80.812693 MB
+Size Reduction: 35.833530%
+==============================================STATS==============================================
+25727014 Writes Completed, 1220000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723957, and variance: 3.006719
+Regular Table: 125.943092 MB, LeaFTL Table: 80.814611 MB
+Size Reduction: 35.832438%
+==============================================STATS==============================================
+25727014 Writes Completed, 1230000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.723957, and variance: 3.006719
+Regular Table: 125.943092 MB, LeaFTL Table: 80.814611 MB
+Size Reduction: 35.832438%
+==============================================STATS==============================================
+25727526 Writes Completed, 1240000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724339, and variance: 3.011473
+Regular Table: 125.943855 MB, LeaFTL Table: 80.816509 MB
+Size Reduction: 35.831320%
+==============================================STATS==============================================
+25727526 Writes Completed, 1250000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724339, and variance: 3.011473
+Regular Table: 125.943855 MB, LeaFTL Table: 80.816509 MB
+Size Reduction: 35.831320%
+==============================================STATS==============================================
+25728038 Writes Completed, 1260000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1270000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1280000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1290000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1300000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1310000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1320000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1330000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1340000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1350000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728038 Writes Completed, 1360000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.724787, and variance: 3.017018
+Regular Table: 125.944374 MB, LeaFTL Table: 80.818377 MB
+Size Reduction: 35.830101%
+==============================================STATS==============================================
+25728550 Writes Completed, 1370000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725073, and variance: 3.021756
+Regular Table: 125.944908 MB, LeaFTL Table: 80.820248 MB
+Size Reduction: 35.828888%
+==============================================STATS==============================================
+25728550 Writes Completed, 1380000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725073, and variance: 3.021756
+Regular Table: 125.944908 MB, LeaFTL Table: 80.820248 MB
+Size Reduction: 35.828888%
+==============================================STATS==============================================
+25728550 Writes Completed, 1390000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725073, and variance: 3.021756
+Regular Table: 125.944908 MB, LeaFTL Table: 80.820248 MB
+Size Reduction: 35.828888%
+==============================================STATS==============================================
+25728550 Writes Completed, 1400000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725073, and variance: 3.021756
+Regular Table: 125.944908 MB, LeaFTL Table: 80.820248 MB
+Size Reduction: 35.828888%
+==============================================STATS==============================================
+25728550 Writes Completed, 1410000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725073, and variance: 3.021756
+Regular Table: 125.944908 MB, LeaFTL Table: 80.820248 MB
+Size Reduction: 35.828888%
+==============================================STATS==============================================
+25728550 Writes Completed, 1420000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725073, and variance: 3.021756
+Regular Table: 125.944908 MB, LeaFTL Table: 80.820248 MB
+Size Reduction: 35.828888%
+==============================================STATS==============================================
+25729574 Writes Completed, 1430000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1440000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1450000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1460000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1470000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1480000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1490000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1500000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1510000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1520000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1530000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1540000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25729574 Writes Completed, 1550000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.725817, and variance: 3.032199
+Regular Table: 125.945847 MB, LeaFTL Table: 80.823977 MB
+Size Reduction: 35.826406%
+==============================================STATS==============================================
+25730086 Writes Completed, 1560000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.726227, and variance: 3.037491
+Regular Table: 125.946213 MB, LeaFTL Table: 80.825875 MB
+Size Reduction: 35.825085%
+==============================================STATS==============================================
+25730086 Writes Completed, 1570000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.726227, and variance: 3.037491
+Regular Table: 125.946213 MB, LeaFTL Table: 80.825875 MB
+Size Reduction: 35.825085%
+==============================================STATS==============================================
+25730086 Writes Completed, 1580000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.726227, and variance: 3.037491
+Regular Table: 125.946213 MB, LeaFTL Table: 80.825875 MB
+Size Reduction: 35.825085%
+==============================================STATS==============================================
+25730086 Writes Completed, 1590000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.726227, and variance: 3.037491
+Regular Table: 125.946213 MB, LeaFTL Table: 80.825875 MB
+Size Reduction: 35.825085%
+==============================================STATS==============================================
+25730086 Writes Completed, 1600000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.726227, and variance: 3.037491
+Regular Table: 125.946213 MB, LeaFTL Table: 80.825875 MB
+Size Reduction: 35.825085%
+==============================================STATS==============================================
+25730086 Writes Completed, 1610000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.726227, and variance: 3.037491
+Regular Table: 125.946213 MB, LeaFTL Table: 80.825875 MB
+Size Reduction: 35.825085%
+==============================================STATS==============================================
+25733670 Writes Completed, 1620000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.728926, and variance: 3.081176
+Regular Table: 125.948433 MB, LeaFTL Table: 80.838979 MB
+Size Reduction: 35.815812%
+==============================================STATS==============================================
+25745958 Writes Completed, 1630000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.740208, and variance: 3.238871
+Regular Table: 125.955803 MB, LeaFTL Table: 80.884929 MB
+Size Reduction: 35.783087%
+==============================================STATS==============================================
+25755681 Writes Completed, 1640000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.748400, and variance: 3.357684
+Regular Table: 125.965462 MB, LeaFTL Table: 80.920625 MB
+Size Reduction: 35.759673%
+==============================================STATS==============================================
+25767964 Writes Completed, 1650000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.763335, and variance: 3.439638
+Regular Table: 125.974609 MB, LeaFTL Table: 80.965287 MB
+Size Reduction: 35.728884%
+==============================================STATS==============================================
+25807894 Writes Completed, 1660000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.804982, and variance: 3.985276
+Regular Table: 125.978561 MB, LeaFTL Table: 81.123884 MB
+Size Reduction: 35.605008%
+==============================================STATS==============================================
+25821716 Writes Completed, 1670000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.813737, and variance: 4.238079
+Regular Table: 125.979111 MB, LeaFTL Table: 81.178569 MB
+Size Reduction: 35.561881%
+==============================================STATS==============================================
+25834004 Writes Completed, 1680000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.823169, and variance: 4.441783
+Regular Table: 125.981720 MB, LeaFTL Table: 81.226192 MB
+Size Reduction: 35.525415%
+==============================================STATS==============================================
+25834004 Writes Completed, 1690000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.823169, and variance: 4.441783
+Regular Table: 125.981720 MB, LeaFTL Table: 81.226192 MB
+Size Reduction: 35.525415%
+==============================================STATS==============================================
+25867796 Writes Completed, 1700000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.840821, and variance: 5.013255
+Regular Table: 125.983040 MB, LeaFTL Table: 81.339576 MB
+Size Reduction: 35.436091%
+==============================================STATS==============================================
+25897492 Writes Completed, 1710000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858359, and variance: 5.546214
+Regular Table: 125.984024 MB, LeaFTL Table: 81.453149 MB
+Size Reduction: 35.346446%
+==============================================STATS==============================================
+25907732 Writes Completed, 1720000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.866456, and variance: 5.727987
+Regular Table: 125.984497 MB, LeaFTL Table: 81.492640 MB
+Size Reduction: 35.315343%
+==============================================STATS==============================================
+25926150 Writes Completed, 1730000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.887962, and variance: 5.825136
+Regular Table: 125.987450 MB, LeaFTL Table: 81.560468 MB
+Size Reduction: 35.263022%
+==============================================STATS==============================================
+25968128 Writes Completed, 1740000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.920568, and variance: 6.364452
+Regular Table: 126.015610 MB, LeaFTL Table: 81.708118 MB
+Size Reduction: 35.160320%
+==============================================STATS==============================================
+25971712 Writes Completed, 1750000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.922246, and variance: 6.423249
+Regular Table: 126.015709 MB, LeaFTL Table: 81.719317 MB
+Size Reduction: 35.151484%
+completed 4000000 Requests
+==============================================STATS==============================================
+26002432 Writes Completed, 1760000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846295, and variance: 4.280775
+Regular Table: 126.016365 MB, LeaFTL Table: 80.071521 MB
+Size Reduction: 36.459427%
+==============================================STATS==============================================
+26007040 Writes Completed, 1770000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.825820, and variance: 3.708131
+Regular Table: 126.016525 MB, LeaFTL Table: 80.178782 MB
+Size Reduction: 36.374390%
+==============================================STATS==============================================
+26044928 Writes Completed, 1780000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.826879, and variance: 3.534249
+Regular Table: 126.027069 MB, LeaFTL Table: 80.414731 MB
+Size Reduction: 36.192493%
+==============================================STATS==============================================
+26049536 Writes Completed, 1790000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.829577, and variance: 3.554562
+Regular Table: 126.027084 MB, LeaFTL Table: 80.434639 MB
+Size Reduction: 36.176704%
+==============================================STATS==============================================
+26052608 Writes Completed, 1800000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.831704, and variance: 3.573892
+Regular Table: 126.027138 MB, LeaFTL Table: 80.447701 MB
+Size Reduction: 36.166367%
+==============================================STATS==============================================
+26053632 Writes Completed, 1810000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.832391, and variance: 3.580962
+Regular Table: 126.027176 MB, LeaFTL Table: 80.451944 MB
+Size Reduction: 36.163019%
+==============================================STATS==============================================
+26053632 Writes Completed, 1820000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.832391, and variance: 3.580962
+Regular Table: 126.027176 MB, LeaFTL Table: 80.451944 MB
+Size Reduction: 36.163019%
+==============================================STATS==============================================
+26054144 Writes Completed, 1830000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.832753, and variance: 3.585080
+Regular Table: 126.027222 MB, LeaFTL Table: 80.454017 MB
+Size Reduction: 36.161398%
+==============================================STATS==============================================
+26055680 Writes Completed, 1840000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.833735, and variance: 3.594208
+Regular Table: 126.027496 MB, LeaFTL Table: 80.460689 MB
+Size Reduction: 36.156243%
+==============================================STATS==============================================
+26056192 Writes Completed, 1850000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.833993, and variance: 3.597075
+Regular Table: 126.027596 MB, LeaFTL Table: 80.462703 MB
+Size Reduction: 36.154695%
+==============================================STATS==============================================
+26056192 Writes Completed, 1860000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.833993, and variance: 3.597075
+Regular Table: 126.027596 MB, LeaFTL Table: 80.462703 MB
+Size Reduction: 36.154695%
+==============================================STATS==============================================
+26056192 Writes Completed, 1870000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.833993, and variance: 3.597075
+Regular Table: 126.027596 MB, LeaFTL Table: 80.462703 MB
+Size Reduction: 36.154695%
+==============================================STATS==============================================
+26056192 Writes Completed, 1880000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.833993, and variance: 3.597075
+Regular Table: 126.027596 MB, LeaFTL Table: 80.462703 MB
+Size Reduction: 36.154695%
+==============================================STATS==============================================
+26056704 Writes Completed, 1890000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1900000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1910000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1920000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1930000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1940000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1950000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1960000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1970000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1980000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 1990000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 2000000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 2010000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 2020000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26056704 Writes Completed, 2030000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.834060, and variance: 3.596581
+Regular Table: 126.027718 MB, LeaFTL Table: 80.465457 MB
+Size Reduction: 36.152571%
+==============================================STATS==============================================
+26081279 Writes Completed, 2040000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.848384, and variance: 3.904046
+Regular Table: 126.029533 MB, LeaFTL Table: 80.576932 MB
+Size Reduction: 36.065040%
+==============================================STATS==============================================
+26091519 Writes Completed, 2050000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.853515, and variance: 4.020879
+Regular Table: 126.031235 MB, LeaFTL Table: 80.623755 MB
+Size Reduction: 36.028751%
+==============================================STATS==============================================
+26135016 Writes Completed, 2060000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.887065, and variance: 4.421422
+Regular Table: 126.037521 MB, LeaFTL Table: 80.821424 MB
+Size Reduction: 35.875108%
+==============================================STATS==============================================
+26137576 Writes Completed, 2070000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.888934, and variance: 4.463605
+Regular Table: 126.037544 MB, LeaFTL Table: 80.832267 MB
+Size Reduction: 35.866517%
+==============================================STATS==============================================
+26142184 Writes Completed, 2080000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.891633, and variance: 4.531404
+Regular Table: 126.037651 MB, LeaFTL Table: 80.850994 MB
+Size Reduction: 35.851713%
+==============================================STATS==============================================
+26143208 Writes Completed, 2090000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.892129, and variance: 4.547831
+Regular Table: 126.037674 MB, LeaFTL Table: 80.855059 MB
+Size Reduction: 35.848500%
+==============================================STATS==============================================
+26160616 Writes Completed, 2100000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.901828, and variance: 4.798130
+Regular Table: 126.039810 MB, LeaFTL Table: 80.924717 MB
+Size Reduction: 35.794320%
+==============================================STATS==============================================
+26190310 Writes Completed, 2110000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.922151, and variance: 5.124591
+Regular Table: 126.067856 MB, LeaFTL Table: 81.038815 MB
+Size Reduction: 35.718099%
+TotalFtlReadRequests: 3254625
+TotalFtlWriteRequests: 689088
+pageMappingFoundForReads: 0
+pageMappingFoundForWrites: 0
+FreeBlockRationAtEnd: 0.000000
+BlockToBlockMovement 0
+CachedPageCount 0
+PagesValidButNotCached 0
+PagesUpdatedDirty 0
+totalValidPageMovement 0
+cachedpagesfoundInAllBlocks 0
+cmtReadRequests 0
+cmtReadRequestsHits 0
+cmtWriteRequests 0
+cmtWriteRequestsHits 0
+cmtEntriesEvictedAgainRequested 0
+deadOnArrivalCounter 0
+EvictionsFromCmt 0
+EntriesEvictedWithOneAccessCount 0
+Inconsistant requests 0
+misPredictionCount 0 
+ShadowCacheEviction 0
+CmtEntresLoadedInCmt 0
+DirtyUpdateRequestRecived 0
+DirtyPage.Updates 0
+Total.Evictions 689088
+Total.DirtyEvictions 689088
+TotalReadReqestMainCache 3254625
+TotalWriteReqestMainCache 1745386
+ReadHitsInMainCache 0
+WriteHitsInMainCache 1040032
+TotalWriteReqestGhostCache 0
+GhostCacheWriteHits 0
+PagesServedFromGhostCacheReads 0
+PagesServedFromGhostCacheWrites 0
+GhostCacheTotalEvictions 0
+GhostCacheDirtyEvictions 0
+prefetcherActivationCounter 0
+PageEvictedByGcAgainAccessed 0
+pageEvictedByHostAgainAccessed 0
+PagesCopied.from.VictumBlock.freeBlock 0
+Periodic log printout @ tick 691811154874660
+read.request_count                      	421228.000000       	Read request count
+read.bytes                              	13248316416.000000  	Read data size in byte
+read.busy                               	47649570533430.000000	Device busy time when read
+write.request_count                     	781800.000000       	Write request count
+write.bytes                             	6859264512.000000   	Write data size in byte
+write.busy                              	630335795051230.000000	Device busy time when write
+request_count                           	1203028.000000      	Total request count
+bytes                                   	20107580928.000000  	Total data size in byte
+busy                                    	677985365584660.000000	Total device busy time
+icl.generic_cache.read.request_count    	3254625.000000      	Read request count
+icl.generic_cache.read.from_cache       	0.000000            	Read requests that served from cache
+icl.generic_cache.write.request_count   	1745386.000000      	Write request count
+icl.generic_cache.write.to_cache        	1744040.000000      	Write requests that served to cache
+dram.energy                             	41680106641225.445312	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	32.668433           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	2799677.000000      	Read request count
+dram.read.bytes                         	22397416.000000     	Read data size in byte
+dram.write.request_count                	5689163.000000      	Write request count
+dram.write.bytes                        	20113094144.000000  	Write data size in byte
+dram.request_count                      	8488840.000000      	Total request count
+dram.bytes                              	20135491560.000000  	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	9430638.468035      	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	51280797.522944     	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	60711435.990979     	Total consumed energy by NAND (uJ)
+pal.power                               	87757.237742        	Average power consumed by NAND (uW)
+pal.read.count                          	2110505.000000      	Total read operation count
+pal.program.count                       	689152.000000       	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	8644628480.000000   	Total read operation bytes
+pal.program.bytes                       	2822766592.000000   	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	25524552.096131     	Average dma0 wait time of read
+pal.read.time.dma0                      	16689.000000        	Average dma0 time of read
+pal.read.time.mem                       	52206308.442766     	Average memory operation time of read
+pal.read.time.dma1.wait                 	14723840.096744     	Average dma1 wait time of read
+pal.read.time.dma1                      	9765625.000000      	Average dma1 time of read
+pal.read.time.total                     	102237014.635641    	Average time of read
+pal.program.time.dma0.wait              	16436.898438        	Average dma0 wait time of program
+pal.program.time.dma0                   	9782314.000000      	Average dma0 time of program
+pal.program.time.mem                    	900000000.000000    	Average memory operation time of program
+pal.program.time.dma1.wait              	16689.000000        	Average dma1 wait time of program
+pal.program.time.dma1                   	2384.000000         	Average dma1 time of program
+pal.program.time.total                  	909817823.898438    	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	9782900.835590      	Average active time of all channels
+pal.die.time.active                     	281788051.685867    	Average active time of all dies
+cpu.hil0.busy                           	1795519290000.000000	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	73384708.000000     	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	375344736.000000    	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	122708856.000000    	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	144363360.000000    	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	2406056.000000      	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	4560632190000.000000	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	152745876.000000    	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	971577920.000000    	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	112956934.000000    	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	577042188.000000    	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	9929958.000000      	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	5166349095000.000000	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	237899110.000000    	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	928013984.000000    	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	120140352.000000    	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	709885870.000000    	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	62712832.000000     	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	7887490.000000      	CPU for FTL core 0 executed other instructions
+End of log @ tick 691811154874660
+[2K                                                           
+DirtyPage.Updates 0
+Total.Evictions 689088
+Total.DirtyEvictions 689088
+TotalTimesEvictionCalled 689152
+TotalCleanEvictions1 0
+TotalCleanEvictions2 0
+Dirty Entries: 0
+Total ICL Count 5000011
+PagesCopied.from.VictumBlock.freeBlock 0
+*** Statistics of Trace Replayer ***
+Tick: 691811154874660
+Time (ps): 0 - 691811154874660 (691811154874660)
+I/O (bytes): 0 (0.000000 B/s)
+I/O (counts): 1203029 (Read: 421229, Write: 781800)
+*** End of statistics ***
+*** Statistics of Block I/O Entry ***
+Latency (ns): min=2842.500000, max=466479678.238000, avg=565058.240436, stdev=121543.534761
+*** End of statistics ***
+*** Statistics of Event Engine ***
+Simulation Tick (ps): 691811154874660
+Host time duration (sec): 1818.694003
+Event handled: 3626811 (1994.184285 ops)
+*** End of statistics ***
+End of simulation @ tick 691811154874660
+SimpleSSD Standalone v2.0
+Channel |   Way   |   Die   |  Plane  |  Block  |   Page  
+      1 |       4 |       4 |      32 |     256 |     256
+Multi-plane mode disabled
+SuperPageSize 4096
+VictimBlockSelctionPolicy: LruPolicy
+DeadOnArrivalPredictior: Disabled
+Total physical blocks 131072
+Total logical blocks 104857
+Logical page size 4096
+Max prefect 512
+CMTSize: 65568
+ShadowCacheSize: 3278
+predictionThrushold: 2
+Total LogicalPages: 26843392
+WarmUp Pages: 25501222
+PagesToInvalidate: 0
+pages avaialbe for writes 1342170
+Ration of free blocks available Before Warmup 0.996094 nFreeBlocks 130560 Pages 33423360
+Valid Pages 16461084 Invalid Page 9038052
+Ration of free blocks available After Warmup 0.240067 nFreeBlocks 31466 Pages 8055296
+Set size 1 | Way size 16384 | Line size 4096 | Capacity 64 MB | Lines Superpage 1
+Set size 1 | GhostWays 1 | Line size 4096 | GhostCacheSize 0 MB | Lines Superpage 1
+Value of parallelIO: 512
+CacheEvictionPolicy: LRU
+CacheEvictionPolicyAtGC: POLICY_LFU
+**********it is NONE interface******************
+Stats for the Trace: /home/aman/Simple_SSD/web_0.txt
+********** Begin of simulation **********
+SIL::None::Driver: Total SSD capacity: 102 GB
+==============================================STATS==============================================
+25518630 Writes Completed, 10000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.549682, and variance: 1.095615
+Regular Table: 125.648689 MB, LeaFTL Table: 80.081861 MB
+Size Reduction: 36.265264%
+==============================================STATS==============================================
+25524774 Writes Completed, 20000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.555404, and variance: 1.149399
+Regular Table: 125.666435 MB, LeaFTL Table: 80.102828 MB
+Size Reduction: 36.257579%
+==============================================STATS==============================================
+25527846 Writes Completed, 30000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.558618, and variance: 1.201374
+Regular Table: 125.675598 MB, LeaFTL Table: 80.113446 MB
+Size Reduction: 36.253778%
+==============================================STATS==============================================
+25527846 Writes Completed, 40000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.558618, and variance: 1.201374
+Regular Table: 125.675598 MB, LeaFTL Table: 80.113446 MB
+Size Reduction: 36.253778%
+==============================================STATS==============================================
+25528358 Writes Completed, 50000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.558942, and variance: 1.206831
+Regular Table: 125.677032 MB, LeaFTL Table: 80.114347 MB
+Size Reduction: 36.253789%
+==============================================STATS==============================================
+25528358 Writes Completed, 60000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.558942, and variance: 1.206831
+Regular Table: 125.677032 MB, LeaFTL Table: 80.114347 MB
+Size Reduction: 36.253789%
+==============================================STATS==============================================
+25528358 Writes Completed, 70000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.558942, and variance: 1.206831
+Regular Table: 125.677032 MB, LeaFTL Table: 80.114347 MB
+Size Reduction: 36.253789%
+==============================================STATS==============================================
+25528358 Writes Completed, 80000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.558942, and variance: 1.206831
+Regular Table: 125.677032 MB, LeaFTL Table: 80.114347 MB
+Size Reduction: 36.253789%
+==============================================STATS==============================================
+25528870 Writes Completed, 90000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.560134, and variance: 1.225887
+Regular Table: 125.678490 MB, LeaFTL Table: 80.117558 MB
+Size Reduction: 36.251972%
+==============================================STATS==============================================
+25529382 Writes Completed, 100000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.560726, and variance: 1.234834
+Regular Table: 125.679916 MB, LeaFTL Table: 80.119071 MB
+Size Reduction: 36.251492%
+==============================================STATS==============================================
+25529894 Writes Completed, 110000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.560983, and variance: 1.237830
+Regular Table: 125.681305 MB, LeaFTL Table: 80.119788 MB
+Size Reduction: 36.251626%
+==============================================STATS==============================================
+25529894 Writes Completed, 120000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.560983, and variance: 1.237830
+Regular Table: 125.681305 MB, LeaFTL Table: 80.119788 MB
+Size Reduction: 36.251626%
+==============================================STATS==============================================
+25530406 Writes Completed, 130000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.561231, and variance: 1.240611
+Regular Table: 125.682762 MB, LeaFTL Table: 80.120405 MB
+Size Reduction: 36.251874%
+==============================================STATS==============================================
+25530406 Writes Completed, 140000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.561231, and variance: 1.240611
+Regular Table: 125.682762 MB, LeaFTL Table: 80.120405 MB
+Size Reduction: 36.251874%
+==============================================STATS==============================================
+25530406 Writes Completed, 150000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.561231, and variance: 1.240611
+Regular Table: 125.682762 MB, LeaFTL Table: 80.120405 MB
+Size Reduction: 36.251874%
+==============================================STATS==============================================
+25530918 Writes Completed, 160000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 170000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 180000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 190000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 200000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 210000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 220000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 230000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 240000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 250000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 260000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 270000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 280000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 290000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 300000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 310000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25530918 Writes Completed, 320000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.562385, and variance: 1.246650
+Regular Table: 125.684219 MB, LeaFTL Table: 80.123117 MB
+Size Reduction: 36.250455%
+==============================================STATS==============================================
+25531942 Writes Completed, 330000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.563453, and variance: 1.251559
+Regular Table: 125.687263 MB, LeaFTL Table: 80.125360 MB
+Size Reduction: 36.250216%
+==============================================STATS==============================================
+25549350 Writes Completed, 340000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.587390, and variance: 1.439834
+Regular Table: 125.738205 MB, LeaFTL Table: 80.183419 MB
+Size Reduction: 36.229868%
+==============================================STATS==============================================
+25549350 Writes Completed, 350000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.587390, and variance: 1.439834
+Regular Table: 125.738205 MB, LeaFTL Table: 80.183419 MB
+Size Reduction: 36.229868%
+==============================================STATS==============================================
+25562662 Writes Completed, 360000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.603317, and variance: 1.665698
+Regular Table: 125.757256 MB, LeaFTL Table: 80.232138 MB
+Size Reduction: 36.200788%
+==============================================STATS==============================================
+25604134 Writes Completed, 370000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.683073, and variance: 2.389238
+Regular Table: 125.834946 MB, LeaFTL Table: 80.376203 MB
+Size Reduction: 36.125691%
+==============================================STATS==============================================
+25628710 Writes Completed, 380000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.719590, and variance: 3.166816
+Regular Table: 125.856567 MB, LeaFTL Table: 80.475811 MB
+Size Reduction: 36.057520%
+completed 1000000 Requests
+==============================================STATS==============================================
+25651238 Writes Completed, 390000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.750136, and variance: 3.982803
+Regular Table: 125.864403 MB, LeaFTL Table: 80.559881 MB
+Size Reduction: 35.994706%
+==============================================STATS==============================================
+25660966 Writes Completed, 400000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.761303, and variance: 4.348553
+Regular Table: 125.865936 MB, LeaFTL Table: 80.595378 MB
+Size Reduction: 35.967284%
+==============================================STATS==============================================
+25675302 Writes Completed, 410000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.780396, and variance: 4.753607
+Regular Table: 125.879280 MB, LeaFTL Table: 80.646544 MB
+Size Reduction: 35.933424%
+==============================================STATS==============================================
+25675302 Writes Completed, 420000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.780396, and variance: 4.753607
+Regular Table: 125.879280 MB, LeaFTL Table: 80.646544 MB
+Size Reduction: 35.933424%
+==============================================STATS==============================================
+25711654 Writes Completed, 430000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.835042, and variance: 6.043768
+Regular Table: 125.904037 MB, LeaFTL Table: 80.784518 MB
+Size Reduction: 35.836436%
+==============================================STATS==============================================
+25715238 Writes Completed, 440000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.840936, and variance: 6.076282
+Regular Table: 125.914032 MB, LeaFTL Table: 80.797920 MB
+Size Reduction: 35.830885%
+==============================================STATS==============================================
+25715238 Writes Completed, 450000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.840936, and variance: 6.076282
+Regular Table: 125.914032 MB, LeaFTL Table: 80.797920 MB
+Size Reduction: 35.830885%
+==============================================STATS==============================================
+25715238 Writes Completed, 460000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.840936, and variance: 6.076282
+Regular Table: 125.914032 MB, LeaFTL Table: 80.797920 MB
+Size Reduction: 35.830885%
+==============================================STATS==============================================
+25715238 Writes Completed, 470000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.840936, and variance: 6.076282
+Regular Table: 125.914032 MB, LeaFTL Table: 80.797920 MB
+Size Reduction: 35.830885%
+==============================================STATS==============================================
+25715750 Writes Completed, 480000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.841823, and variance: 6.080209
+Regular Table: 125.915466 MB, LeaFTL Table: 80.799912 MB
+Size Reduction: 35.830034%
+==============================================STATS==============================================
+25716262 Writes Completed, 490000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.842242, and variance: 6.081586
+Regular Table: 125.916954 MB, LeaFTL Table: 80.800852 MB
+Size Reduction: 35.830046%
+==============================================STATS==============================================
+25717286 Writes Completed, 500000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.844493, and variance: 6.089237
+Regular Table: 125.919998 MB, LeaFTL Table: 80.805746 MB
+Size Reduction: 35.827710%
+==============================================STATS==============================================
+25718310 Writes Completed, 510000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.845685, and variance: 6.093506
+Regular Table: 125.922707 MB, LeaFTL Table: 80.808692 MB
+Size Reduction: 35.826751%
+==============================================STATS==============================================
+25718822 Writes Completed, 520000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 530000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 540000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 550000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 560000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 570000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 580000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 590000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 600000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25718822 Writes Completed, 610000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.846086, and variance: 6.094878
+Regular Table: 125.923988 MB, LeaFTL Table: 80.809666 MB
+Size Reduction: 35.826631%
+==============================================STATS==============================================
+25719334 Writes Completed, 620000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 630000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 640000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 650000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 660000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 670000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 680000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 690000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719334 Writes Completed, 700000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.847745, and variance: 6.101034
+Regular Table: 125.925240 MB, LeaFTL Table: 80.813720 MB
+Size Reduction: 35.824049%
+==============================================STATS==============================================
+25719846 Writes Completed, 710000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.848594, and variance: 6.104561
+Regular Table: 125.926582 MB, LeaFTL Table: 80.815760 MB
+Size Reduction: 35.823114%
+==============================================STATS==============================================
+25719846 Writes Completed, 720000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.848594, and variance: 6.104561
+Regular Table: 125.926582 MB, LeaFTL Table: 80.815760 MB
+Size Reduction: 35.823114%
+==============================================STATS==============================================
+25719846 Writes Completed, 730000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.848594, and variance: 6.104561
+Regular Table: 125.926582 MB, LeaFTL Table: 80.815760 MB
+Size Reduction: 35.823114%
+==============================================STATS==============================================
+25719846 Writes Completed, 740000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.848594, and variance: 6.104561
+Regular Table: 125.926582 MB, LeaFTL Table: 80.815760 MB
+Size Reduction: 35.823114%
+==============================================STATS==============================================
+25719846 Writes Completed, 750000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.848594, and variance: 6.104561
+Regular Table: 125.926582 MB, LeaFTL Table: 80.815760 MB
+Size Reduction: 35.823114%
+==============================================STATS==============================================
+25719846 Writes Completed, 760000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.848594, and variance: 6.104561
+Regular Table: 125.926582 MB, LeaFTL Table: 80.815760 MB
+Size Reduction: 35.823114%
+==============================================STATS==============================================
+25720358 Writes Completed, 770000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.849013, and variance: 6.106435
+Regular Table: 125.928009 MB, LeaFTL Table: 80.816728 MB
+Size Reduction: 35.823072%
+==============================================STATS==============================================
+25720870 Writes Completed, 780000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.849309, and variance: 6.107910
+Regular Table: 125.929474 MB, LeaFTL Table: 80.817716 MB
+Size Reduction: 35.823034%
+==============================================STATS==============================================
+25721382 Writes Completed, 790000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.850940, and variance: 6.115347
+Regular Table: 125.930763 MB, LeaFTL Table: 80.821735 MB
+Size Reduction: 35.820499%
+==============================================STATS==============================================
+25721894 Writes Completed, 800000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.851722, and variance: 6.119595
+Regular Table: 125.931999 MB, LeaFTL Table: 80.823785 MB
+Size Reduction: 35.819502%
+==============================================STATS==============================================
+25722918 Writes Completed, 810000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.852513, and variance: 6.123141
+Regular Table: 125.934647 MB, LeaFTL Table: 80.825727 MB
+Size Reduction: 35.819308%
+==============================================STATS==============================================
+25722918 Writes Completed, 820000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.852513, and variance: 6.123141
+Regular Table: 125.934647 MB, LeaFTL Table: 80.825727 MB
+Size Reduction: 35.819308%
+==============================================STATS==============================================
+25723430 Writes Completed, 830000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854154, and variance: 6.133639
+Regular Table: 125.935867 MB, LeaFTL Table: 80.829695 MB
+Size Reduction: 35.816780%
+==============================================STATS==============================================
+25723430 Writes Completed, 840000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854154, and variance: 6.133639
+Regular Table: 125.935867 MB, LeaFTL Table: 80.829695 MB
+Size Reduction: 35.816780%
+==============================================STATS==============================================
+25723430 Writes Completed, 850000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854154, and variance: 6.133639
+Regular Table: 125.935867 MB, LeaFTL Table: 80.829695 MB
+Size Reduction: 35.816780%
+==============================================STATS==============================================
+25723942 Writes Completed, 860000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854974, and variance: 6.140379
+Regular Table: 125.937119 MB, LeaFTL Table: 80.831692 MB
+Size Reduction: 35.815832%
+==============================================STATS==============================================
+25723942 Writes Completed, 870000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854974, and variance: 6.140379
+Regular Table: 125.937119 MB, LeaFTL Table: 80.831692 MB
+Size Reduction: 35.815832%
+==============================================STATS==============================================
+25723942 Writes Completed, 880000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854974, and variance: 6.140379
+Regular Table: 125.937119 MB, LeaFTL Table: 80.831692 MB
+Size Reduction: 35.815832%
+==============================================STATS==============================================
+25723942 Writes Completed, 890000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854974, and variance: 6.140379
+Regular Table: 125.937119 MB, LeaFTL Table: 80.831692 MB
+Size Reduction: 35.815832%
+==============================================STATS==============================================
+25723942 Writes Completed, 900000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.854974, and variance: 6.140379
+Regular Table: 125.937119 MB, LeaFTL Table: 80.831692 MB
+Size Reduction: 35.815832%
+==============================================STATS==============================================
+25724454 Writes Completed, 910000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724454 Writes Completed, 920000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724454 Writes Completed, 930000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724454 Writes Completed, 940000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724454 Writes Completed, 950000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724454 Writes Completed, 960000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724454 Writes Completed, 970000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724454 Writes Completed, 980000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855422, and variance: 6.143707
+Regular Table: 125.938309 MB, LeaFTL Table: 80.832664 MB
+Size Reduction: 35.815666%
+==============================================STATS==============================================
+25724966 Writes Completed, 990000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.855813, and variance: 6.145875
+Regular Table: 125.939377 MB, LeaFTL Table: 80.833657 MB
+Size Reduction: 35.815422%
+==============================================STATS==============================================
+25725478 Writes Completed, 1000000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.857558, and variance: 6.162076
+Regular Table: 125.940384 MB, LeaFTL Table: 80.837708 MB
+Size Reduction: 35.812719%
+==============================================STATS==============================================
+25725990 Writes Completed, 1010000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1020000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1030000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1040000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1050000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1060000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1070000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1080000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1090000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1100000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1110000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1120000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1130000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1140000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1150000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1160000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1170000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1180000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1190000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25725990 Writes Completed, 1200000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858350, and variance: 6.170141
+Regular Table: 125.941338 MB, LeaFTL Table: 80.839628 MB
+Size Reduction: 35.811680%
+==============================================STATS==============================================
+25726502 Writes Completed, 1210000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.858760, and variance: 6.174168
+Regular Table: 125.942245 MB, LeaFTL Table: 80.840582 MB
+Size Reduction: 35.811386%
+==============================================STATS==============================================
+25727014 Writes Completed, 1220000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.859122, and variance: 6.177914
+Regular Table: 125.943092 MB, LeaFTL Table: 80.841605 MB
+Size Reduction: 35.811005%
+==============================================STATS==============================================
+25727014 Writes Completed, 1230000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.859122, and variance: 6.177914
+Regular Table: 125.943092 MB, LeaFTL Table: 80.841605 MB
+Size Reduction: 35.811005%
+==============================================STATS==============================================
+25727526 Writes Completed, 1240000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.860772, and variance: 6.197710
+Regular Table: 125.943855 MB, LeaFTL Table: 80.845524 MB
+Size Reduction: 35.808282%
+==============================================STATS==============================================
+25727526 Writes Completed, 1250000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.860772, and variance: 6.197710
+Regular Table: 125.943855 MB, LeaFTL Table: 80.845524 MB
+Size Reduction: 35.808282%
+==============================================STATS==============================================
+25728038 Writes Completed, 1260000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1270000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1280000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1290000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1300000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1310000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1320000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1330000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1340000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728038 Writes Completed, 1360000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.861669, and variance: 6.208563
+Regular Table: 125.944374 MB, LeaFTL Table: 80.847426 MB
+Size Reduction: 35.807036%
+==============================================STATS==============================================
+25728550 Writes Completed, 1370000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.862127, and variance: 6.213869
+Regular Table: 125.944908 MB, LeaFTL Table: 80.848387 MB
+Size Reduction: 35.806546%
+==============================================STATS==============================================
+25728550 Writes Completed, 1380000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.862127, and variance: 6.213869
+Regular Table: 125.944908 MB, LeaFTL Table: 80.848387 MB
+Size Reduction: 35.806546%
+==============================================STATS==============================================
+25728550 Writes Completed, 1390000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.862127, and variance: 6.213869
+Regular Table: 125.944908 MB, LeaFTL Table: 80.848387 MB
+Size Reduction: 35.806546%
+==============================================STATS==============================================
+25728550 Writes Completed, 1400000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.862127, and variance: 6.213869
+Regular Table: 125.944908 MB, LeaFTL Table: 80.848387 MB
+Size Reduction: 35.806546%
+==============================================STATS==============================================
+25728550 Writes Completed, 1410000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.862127, and variance: 6.213869
+Regular Table: 125.944908 MB, LeaFTL Table: 80.848387 MB
+Size Reduction: 35.806546%
+==============================================STATS==============================================
+25728550 Writes Completed, 1420000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.862127, and variance: 6.213869
+Regular Table: 125.944908 MB, LeaFTL Table: 80.848387 MB
+Size Reduction: 35.806546%
+==============================================STATS==============================================
+25729574 Writes Completed, 1430000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1440000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1450000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1460000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1470000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1480000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1490000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1500000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1510000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1520000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1530000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1540000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25729574 Writes Completed, 1550000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864053, and variance: 6.241039
+Regular Table: 125.945847 MB, LeaFTL Table: 80.853131 MB
+Size Reduction: 35.803257%
+==============================================STATS==============================================
+25730086 Writes Completed, 1560000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864883, and variance: 6.253387
+Regular Table: 125.946213 MB, LeaFTL Table: 80.855063 MB
+Size Reduction: 35.801910%
+==============================================STATS==============================================
+25730086 Writes Completed, 1570000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864883, and variance: 6.253387
+Regular Table: 125.946213 MB, LeaFTL Table: 80.855063 MB
+Size Reduction: 35.801910%
+==============================================STATS==============================================
+25730086 Writes Completed, 1580000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864883, and variance: 6.253387
+Regular Table: 125.946213 MB, LeaFTL Table: 80.855063 MB
+Size Reduction: 35.801910%
+==============================================STATS==============================================
+25730086 Writes Completed, 1590000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864883, and variance: 6.253387
+Regular Table: 125.946213 MB, LeaFTL Table: 80.855063 MB
+Size Reduction: 35.801910%
+==============================================STATS==============================================
+25730086 Writes Completed, 1600000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864883, and variance: 6.253387
+Regular Table: 125.946213 MB, LeaFTL Table: 80.855063 MB
+Size Reduction: 35.801910%
+==============================================STATS==============================================
+25730086 Writes Completed, 1610000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.864883, and variance: 6.253387
+Regular Table: 125.946213 MB, LeaFTL Table: 80.855063 MB
+Size Reduction: 35.801910%
+==============================================STATS==============================================
+25733670 Writes Completed, 1620000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.870834, and variance: 6.345024
+Regular Table: 125.948433 MB, LeaFTL Table: 80.868449 MB
+Size Reduction: 35.792413%
+==============================================STATS==============================================
+25745958 Writes Completed, 1630000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.891624, and variance: 6.685980
+Regular Table: 125.955803 MB, LeaFTL Table: 80.915156 MB
+Size Reduction: 35.759088%
+==============================================STATS==============================================
+25755681 Writes Completed, 1640000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.905023, and variance: 6.933176
+Regular Table: 125.965462 MB, LeaFTL Table: 80.949343 MB
+Size Reduction: 35.736875%
+==============================================STATS==============================================
+25767964 Writes Completed, 1650000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.925603, and variance: 7.110883
+Regular Table: 125.974609 MB, LeaFTL Table: 80.993983 MB
+Size Reduction: 35.706105%
+==============================================STATS==============================================
+25807894 Writes Completed, 1660000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.999752, and variance: 8.293298
+Regular Table: 125.978561 MB, LeaFTL Table: 81.154600 MB
+Size Reduction: 35.580626%
+==============================================STATS==============================================
+25821716 Writes Completed, 1670000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.019636, and variance: 8.936858
+Regular Table: 125.979111 MB, LeaFTL Table: 81.208601 MB
+Size Reduction: 35.538042%
+==============================================STATS==============================================
+25834004 Writes Completed, 1680000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.038090, and variance: 9.435481
+Regular Table: 125.981720 MB, LeaFTL Table: 81.255947 MB
+Size Reduction: 35.501796%
+==============================================STATS==============================================
+25834004 Writes Completed, 1690000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.038090, and variance: 9.435481
+Regular Table: 125.981720 MB, LeaFTL Table: 81.255947 MB
+Size Reduction: 35.501796%
+==============================================STATS==============================================
+25867796 Writes Completed, 1700000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.077639, and variance: 10.828182
+Regular Table: 125.983040 MB, LeaFTL Table: 81.370981 MB
+Size Reduction: 35.411162%
+==============================================STATS==============================================
+25897492 Writes Completed, 1710000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.114899, and variance: 12.075581
+Regular Table: 125.984024 MB, LeaFTL Table: 81.479691 MB
+Size Reduction: 35.325379%
+==============================================STATS==============================================
+25907732 Writes Completed, 1720000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.128251, and variance: 12.430441
+Regular Table: 125.984497 MB, LeaFTL Table: 81.518416 MB
+Size Reduction: 35.294883%
+==============================================STATS==============================================
+25926150 Writes Completed, 1730000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.157739, and variance: 12.611868
+Regular Table: 125.987450 MB, LeaFTL Table: 81.584344 MB
+Size Reduction: 35.244071%
+==============================================STATS==============================================
+25968128 Writes Completed, 1740000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.224887, and variance: 14.068298
+Regular Table: 126.015610 MB, LeaFTL Table: 81.740541 MB
+Size Reduction: 35.134590%
+==============================================STATS==============================================
+25971712 Writes Completed, 1750000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.228502, and variance: 14.206408
+Regular Table: 126.015709 MB, LeaFTL Table: 81.752295 MB
+Size Reduction: 35.125315%
+completed 4000000 Requests
+==============================================STATS==============================================
+26002432 Writes Completed, 1760000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.091458, and variance: 9.566144
+Regular Table: 126.016365 MB, LeaFTL Table: 80.234323 MB
+Size Reduction: 36.330236%
+==============================================STATS==============================================
+26007040 Writes Completed, 1770000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.063944, and variance: 8.886356
+Regular Table: 126.016525 MB, LeaFTL Table: 80.328798 MB
+Size Reduction: 36.255346%
+==============================================STATS==============================================
+26044928 Writes Completed, 1780000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.083943, and variance: 9.253166
+Regular Table: 126.027069 MB, LeaFTL Table: 80.541288 MB
+Size Reduction: 36.092072%
+==============================================STATS==============================================
+26049536 Writes Completed, 1790000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.091010, and variance: 9.298137
+Regular Table: 126.027084 MB, LeaFTL Table: 80.561604 MB
+Size Reduction: 36.075960%
+==============================================STATS==============================================
+26052608 Writes Completed, 1800000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.094481, and variance: 9.324867
+Regular Table: 126.027138 MB, LeaFTL Table: 80.572245 MB
+Size Reduction: 36.067544%
+==============================================STATS==============================================
+26053632 Writes Completed, 1810000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.096770, and variance: 9.345599
+Regular Table: 126.027176 MB, LeaFTL Table: 80.578842 MB
+Size Reduction: 36.062328%
+==============================================STATS==============================================
+26053632 Writes Completed, 1820000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.096770, and variance: 9.345599
+Regular Table: 126.027176 MB, LeaFTL Table: 80.578842 MB
+Size Reduction: 36.062328%
+==============================================STATS==============================================
+26054144 Writes Completed, 1830000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.097132, and variance: 9.349278
+Regular Table: 126.027222 MB, LeaFTL Table: 80.580050 MB
+Size Reduction: 36.061393%
+==============================================STATS==============================================
+26055680 Writes Completed, 1840000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.099793, and variance: 9.376581
+Regular Table: 126.027496 MB, LeaFTL Table: 80.587587 MB
+Size Reduction: 36.055552%
+==============================================STATS==============================================
+26056192 Writes Completed, 1850000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100203, and variance: 9.380322
+Regular Table: 126.027596 MB, LeaFTL Table: 80.588692 MB
+Size Reduction: 36.054726%
+==============================================STATS==============================================
+26056192 Writes Completed, 1860000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100203, and variance: 9.380322
+Regular Table: 126.027596 MB, LeaFTL Table: 80.588692 MB
+Size Reduction: 36.054726%
+==============================================STATS==============================================
+26056192 Writes Completed, 1870000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100203, and variance: 9.380322
+Regular Table: 126.027596 MB, LeaFTL Table: 80.588692 MB
+Size Reduction: 36.054726%
+==============================================STATS==============================================
+26056704 Writes Completed, 1890000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1900000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1910000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1920000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1930000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1940000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1950000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1960000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1970000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1980000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 1990000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 2000000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 2010000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 2020000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26056704 Writes Completed, 2030000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.100585, and variance: 9.383853
+Regular Table: 126.027718 MB, LeaFTL Table: 80.589806 MB
+Size Reduction: 36.053904%
+==============================================STATS==============================================
+26081279 Writes Completed, 2040000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.129586, and variance: 10.043627
+Regular Table: 126.029533 MB, LeaFTL Table: 80.703424 MB
+Size Reduction: 35.964673%
+==============================================STATS==============================================
+26091519 Writes Completed, 2050000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.140429, and variance: 10.403325
+Regular Table: 126.031235 MB, LeaFTL Table: 80.748056 MB
+Size Reduction: 35.930124%
+==============================================STATS==============================================
+26135016 Writes Completed, 2060000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.202914, and variance: 11.268122
+Regular Table: 126.037521 MB, LeaFTL Table: 80.947931 MB
+Size Reduction: 35.774736%
+==============================================STATS==============================================
+26137576 Writes Completed, 2070000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.207311, and variance: 11.369194
+Regular Table: 126.037544 MB, LeaFTL Table: 80.958632 MB
+Size Reduction: 35.766257%
+==============================================STATS==============================================
+26142184 Writes Completed, 2080000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.214216, and variance: 11.569881
+Regular Table: 126.037651 MB, LeaFTL Table: 80.977580 MB
+Size Reduction: 35.751278%
+==============================================STATS==============================================
+26143208 Writes Completed, 2090000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.215484, and variance: 11.617139
+Regular Table: 126.037674 MB, LeaFTL Table: 80.981883 MB
+Size Reduction: 35.747876%
+==============================================STATS==============================================
+26160616 Writes Completed, 2100000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.237228, and variance: 12.314255
+Regular Table: 126.039810 MB, LeaFTL Table: 81.051851 MB
+Size Reduction: 35.693452%
+==============================================STATS==============================================
+26190310 Writes Completed, 2110000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 2.279581, and variance: 13.130910
+Regular Table: 126.067856 MB, LeaFTL Table: 81.168804 MB
+Size Reduction: 35.614988%
+TotalFtlReadRequests: 3254625
+TotalFtlWriteRequests: 689088
+pageMappingFoundForReads: 0
+pageMappingFoundForWrites: 0
+FreeBlockRationAtEnd: 0.000000
+BlockToBlockMovement 0
+CachedPageCount 0
+PagesValidButNotCached 0
+PagesUpdatedDirty 0
+totalValidPageMovement 0
+cachedpagesfoundInAllBlocks 0
+cmtReadRequests 0
+cmtReadRequestsHits 0
+cmtWriteRequests 0
+cmtWriteRequestsHits 0
+cmtEntriesEvictedAgainRequested 0
+deadOnArrivalCounter 0
+EvictionsFromCmt 0
+EntriesEvictedWithOneAccessCount 0
+Inconsistant requests 0
+misPredictionCount 0 
+ShadowCacheEviction 0
+CmtEntresLoadedInCmt 0
+DirtyUpdateRequestRecived 0
+DirtyPage.Updates 0
+Total.Evictions 689088
+Total.DirtyEvictions 689088
+TotalReadReqestMainCache 3254625
+TotalWriteReqestMainCache 1745386
+ReadHitsInMainCache 0
+WriteHitsInMainCache 1040032
+TotalWriteReqestGhostCache 0
+GhostCacheWriteHits 0
+PagesServedFromGhostCacheReads 0
+PagesServedFromGhostCacheWrites 0
+GhostCacheTotalEvictions 0
+GhostCacheDirtyEvictions 0
+prefetcherActivationCounter 0
+PageEvictedByGcAgainAccessed 0
+pageEvictedByHostAgainAccessed 0
+PagesCopied.from.VictumBlock.freeBlock 0
+Periodic log printout @ tick 689981290531771
+read.request_count                      	421228.000000       	Read request count
+read.bytes                              	13248316416.000000  	Read data size in byte
+read.busy                               	45820305997502.000000	Device busy time when read
+write.request_count                     	781800.000000       	Write request count
+write.bytes                             	6859264512.000000   	Write data size in byte
+write.busy                              	630335195244269.000000	Device busy time when write
+request_count                           	1203028.000000      	Total request count
+bytes                                   	20107580928.000000  	Total data size in byte
+busy                                    	676155501241771.000000	Total device busy time
+icl.generic_cache.read.request_count    	3254625.000000      	Read request count
+icl.generic_cache.read.from_cache       	0.000000            	Read requests that served from cache
+icl.generic_cache.write.request_count   	1745386.000000      	Write request count
+icl.generic_cache.write.to_cache        	1744040.000000      	Write requests that served to cache
+dram.energy                             	41580719015242.054688	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	32.668500           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	2799677.000000      	Read request count
+dram.read.bytes                         	22397416.000000     	Read data size in byte
+dram.write.request_count                	5689163.000000      	Write request count
+dram.write.bytes                        	20113094144.000000  	Write data size in byte
+dram.request_count                      	8488840.000000      	Total request count
+dram.bytes                              	20135491560.000000  	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	9431179.615947      	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	51280797.522944     	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	60711977.138891     	Total consumed energy by NAND (uJ)
+pal.power                               	87990.758550        	Average power consumed by NAND (uW)
+pal.read.count                          	2110221.000000      	Total read operation count
+pal.program.count                       	689152.000000       	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	8643465216.000000   	Total read operation bytes
+pal.program.bytes                       	2822766592.000000   	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	20174195.039098     	Average dma0 wait time of read
+pal.read.time.dma0                      	16689.000000        	Average dma0 time of read
+pal.read.time.mem                       	52216706.212288     	Average memory operation time of read
+pal.read.time.dma1.wait                 	17372011.393041     	Average dma1 wait time of read
+pal.read.time.dma1                      	9765625.000000      	Average dma1 time of read
+pal.read.time.total                     	99545226.644427     	Average time of read
+pal.program.time.dma0.wait              	16436.898438        	Average dma0 wait time of program
+pal.program.time.dma0                   	9782314.000000      	Average dma0 time of program
+pal.program.time.mem                    	900000000.000000    	Average memory operation time of program
+pal.program.time.dma1.wait              	16689.000000        	Average dma1 wait time of program
+pal.program.time.dma1                   	2384.000000         	Average dma1 time of program
+pal.program.time.total                  	909817823.898438    	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	9782900.895125      	Average active time of all channels
+pal.die.time.active                     	283809897.961530    	Average active time of all dies
+cpu.hil0.busy                           	1795519290000.000000	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	73384708.000000     	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	375344736.000000    	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	122708856.000000    	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	144363360.000000    	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	2406056.000000      	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	4560632190000.000000	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	152745876.000000    	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	971577920.000000    	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	112956934.000000    	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	577042188.000000    	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	9929958.000000      	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	5166349095000.000000	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	237899110.000000    	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	928013984.000000    	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	120140352.000000    	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	709885870.000000    	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	62712832.000000     	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	7887490.000000      	CPU for FTL core 0 executed other instructions
+End of log @ tick 689981290531771
+[2K                                                           DirtyPage.Updates 0
+Total.Evictions 689088
+Total.DirtyEvictions 689088
+TotalTimesEvictionCalled 689152
+TotalCleanEvictions1 0
+TotalCleanEvictions2 0
+Dirty Entries: 0
+Total ICL Count 5000011
+PagesCopied.from.VictumBlock.freeBlock 0
+*** Statistics of Trace Replayer ***
+Tick: 689981290531771
+Time (ps): 0 - 689981290531771 (689981290531771)
+I/O (bytes): 0 (0.000000 B/s)
+I/O (counts): 1203029 (Read: 421229, Write: 781800)
+*** End of statistics ***
+*** Statistics of Block I/O Entry ***
+Latency (ns): min=2842.500000, max=931824716.642000, avg=563537.191596, stdev=24279.128781
+*** End of statistics ***
+*** Statistics of Event Engine ***
+Simulation Tick (ps): 689981290531771
+Host time duration (sec): 2084.829786
+Event handled: 3626763 (1739.596693 ops)
+*** End of statistics ***
+End of simulation @ tick 689981290531771

@@ -1,0 +1,42 @@
+#include <algorithm> // For std::max_element
+
+void PageMapping::evictEntryFromCMT() {
+    if (cmt.size() >= cmtSize) { // Eviction needed
+        uint64_t lruKey = 0;
+        uint64_t maxFirstElement = 0;
+
+        // Find the least recently used entry
+        for (const auto &entry : cmt) {
+            uint64_t currentKey = entry.first;
+            uint32_t currentAccessCount = entry.second.cmtEntryAccessCount;
+
+            // Check if the entry exists in the optMap
+            auto optMapEntry = optMap.find(currentKey);
+            if (optMapEntry != optMap.end() && !optMapEntry->second.empty()) {
+                // Compare the first element of the vector
+                if (optMapEntry->second[0] > maxFirstElement) {
+                    maxFirstElement = optMapEntry->second[0];
+                    lruKey = currentKey;
+                }
+            }
+        }
+
+        if (lruKey != 0) {
+            evictedCmtEntries[lruKey] = maxFirstElement; // victimCache
+            // printf("ValueEvicted %lu Size of EvictedMap %ld AccessCountEvictedEntry %u\n",lruKey,evictedCmtEntries.size(),maxFirstElement);
+            if (maxFirstElement == 1) {
+                cmtStats.entriesWithOneAccessCount++;
+            }
+            cmtStats.cmtEvictions++;
+            // cmtEntryEvictionAccessFrequency[maxFirstElement]++;
+
+            // Remove the first element from the vector in optMap
+            auto& optMapEntryVector = optMap[lruKey];
+            if (!optMapEntryVector.empty()) {
+                optMapEntryVector.erase(optMapEntryVector.begin());
+            }
+
+            cmt.erase(lruKey); // Remove LRU entry from the CMT
+        }
+    }
+}

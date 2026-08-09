@@ -1,0 +1,265 @@
+SimpleSSD Standalone v2.0
+Channel |   Way   |   Die   |  Plane  |  Block  |   Page  
+      1 |       4 |       4 |      32 |     256 |     256
+Multi-plane mode disabled
+SuperPageSize 4096
+VictimBlockSelctionPolicy: LruPolicy
+DeadOnArrivalPredictior: Disabled
+Total physical blocks 131072
+Total logical blocks 104857
+Logical page size 4096
+Max prefect 512
+CMTSize: 65568
+ShadowCacheSize: 3278
+predictionThrushold: 2
+Total LogicalPages: 26843392
+WarmUp Pages: 25501222
+PagesToInvalidate: 0
+pages avaialbe for writes 1342170
+Ration of free blocks available Before Warmup 0.996094 nFreeBlocks 130560 Pages 33423360
+Valid Pages 16462029 Invalid Page 9038899
+Ration of free blocks available After Warmup 0.240013 nFreeBlocks 31459 Pages 8053504
+Set size 1 | Way size 16384 | Line size 4096 | Capacity 64 MB | Lines Superpage 1
+Set size 1 | GhostWays 1 | Line size 4096 | GhostCacheSize 0 MB | Lines Superpage 1
+Value of parallelIO: 512
+CacheEvictionPolicy: LRU
+CacheEvictionPolicyAtGC: POLICY_LFU
+**********it is NONE interface******************
+Stats for the Trace: /home/aman/Simple_SSD/web_0.txt
+********** Begin of simulation **********
+SIL::None::Driver: Total SSD capacity: 102 GB
+==============================================STATS==============================================
+25501222 Writes Completed, 100 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 200 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 300 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 400 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 500 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 600 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 700 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 800 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 900 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 1000 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 1100 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 1200 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 1300 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 1400 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+==============================================STATS==============================================
+25501222 Writes Completed, 1500 Reads completed; Summary: 
+Prediction Accuracy for gamma: 0.000000: 100.000000%
+Average number of levels for a frame: 1.543826, and variance: 1.027395
+Regular Table: 125.596626 MB, LeaFTL Table: 80.047600 MB
+Size Reduction: 36.266123%
+TotalFtlReadRequests: 2451
+TotalFtlWriteRequests: 339
+pageMappingFoundForReads: 0
+pageMappingFoundForWrites: 0
+FreeBlockRationAtEnd: 0.000000
+BlockToBlockMovement 0
+CachedPageCount 0
+PagesValidButNotCached 0
+PagesUpdatedDirty 0
+totalValidPageMovement 0
+cachedpagesfoundInAllBlocks 0
+cmtReadRequests 0
+cmtReadRequestsHits 0
+cmtWriteRequests 0
+cmtWriteRequestsHits 0
+cmtEntriesEvictedAgainRequested 0
+deadOnArrivalCounter 0
+EvictionsFromCmt 0
+EntriesEvictedWithOneAccessCount 0
+Inconsistant requests 0
+misPredictionCount 0 
+ShadowCacheEviction 0
+CmtEntresLoadedInCmt 0
+DirtyUpdateRequestRecived 0
+DirtyPage.Updates 0
+Total.Evictions 340
+Total.DirtyEvictions 340
+TotalReadReqestMainCache 2451
+TotalWriteReqestMainCache 37682
+ReadHitsInMainCache 0
+WriteHitsInMainCache 21298
+TotalWriteReqestGhostCache 0
+GhostCacheWriteHits 0
+PagesServedFromGhostCacheReads 0
+PagesServedFromGhostCacheWrites 0
+GhostCacheTotalEvictions 0
+GhostCacheDirtyEvictions 0
+prefetcherActivationCounter 0
+PageEvictedByGcAgainAccessed 0
+pageEvictedByHostAgainAccessed 0
+PagesCopied.from.VictumBlock.freeBlock 0
+Periodic log printout @ tick 338257651971
+read.request_count                      	1061.000000         	Read request count
+read.bytes                              	9788416.000000      	Read data size in byte
+read.busy                               	60203834291.000000  	Device busy time when read
+write.request_count                     	16411.000000        	Write request count
+write.bytes                             	148473856.000000    	Write data size in byte
+write.busy                              	77255365180.000000  	Device busy time when write
+request_count                           	17472.000000        	Total request count
+bytes                                   	158262272.000000    	Total data size in byte
+busy                                    	137459199471.000000 	Total device busy time
+icl.generic_cache.read.request_count    	2451.000000         	Read request count
+icl.generic_cache.read.from_cache       	0.000000            	Read requests that served from cache
+icl.generic_cache.write.request_count   	37682.000000        	Write request count
+icl.generic_cache.write.to_cache        	37682.000000        	Write requests that served to cache
+dram.energy                             	26407985628.411995  	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	32.861869           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	2049.000000         	Read request count
+dram.read.bytes                         	16392.000000        	Read data size in byte
+dram.write.request_count                	40645.000000        	Write request count
+dram.write.bytes                        	158319616.000000    	Write data size in byte
+dram.request_count                      	42694.000000        	Total request count
+dram.bytes                              	158336008.000000    	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	6784.557559         	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	38098.660864        	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	44883.218423        	Total consumed energy by NAND (uJ)
+pal.power                               	132689.440021       	Average power consumed by NAND (uW)
+pal.read.count                          	1537.000000         	Total read operation count
+pal.program.count                       	512.000000          	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	6295552.000000      	Total read operation bytes
+pal.program.bytes                       	2097152.000000      	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	5750399.711776      	Average dma0 wait time of read
+pal.read.time.dma0                      	16689.000000        	Average dma0 time of read
+pal.read.time.mem                       	51548471.047495     	Average memory operation time of read
+pal.read.time.dma1.wait                 	4700849.966168      	Average dma1 wait time of read
+pal.read.time.dma1                      	9765625.000000      	Average dma1 time of read
+pal.read.time.total                     	71782034.725439     	Average time of read
+pal.program.time.dma0.wait              	16436.898438        	Average dma0 wait time of program
+pal.program.time.dma0                   	9782314.000000      	Average dma0 time of program
+pal.program.time.mem                    	900000000.000000    	Average memory operation time of program
+pal.program.time.dma1.wait              	16689.000000        	Average dma1 wait time of program
+pal.program.time.dma1                   	2384.000000         	Average dma1 time of program
+pal.program.time.total                  	909817823.898438    	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	9782909.709126      	Average active time of all channels
+pal.die.time.active                     	146482077.212575    	Average active time of all dies
+cpu.hil0.busy                           	26076960000.000000  	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	1065792.000000      	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	5451264.000000      	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	1782144.000000      	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	2096640.000000      	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	34944.000000        	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	95465220000.000000  	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	3229700.000000      	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	20227808.000000     	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	2294170.000000      	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	12228528.000000     	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	205882.000000       	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	3766052500.000000   	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	173531.000000       	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	675484.000000       	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	86973.000000        	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	518088.000000       	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	46592.000000        	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	5753.000000         	CPU for FTL core 0 executed other instructions
+End of log @ tick 338257651971
+[2K                                                           DirtyPage.Updates 0
+Total.Evictions 340
+Total.DirtyEvictions 340
+TotalTimesEvictionCalled 340
+TotalCleanEvictions1 0
+TotalCleanEvictions2 0
+Dirty Entries: 0
+Total ICL Count 40134
+PagesCopied.from.VictumBlock.freeBlock 0
+*** Statistics of Trace Replayer ***
+Tick: 338257651971
+Time (ps): 0 - 338257651971 (338257651971)
+I/O (bytes): 0 (0.000000 B/s)
+I/O (counts): 17474 (Read: 1061, Write: 16413)
+*** End of statistics ***
+*** Statistics of Block I/O Entry ***
+Latency (ns): min=2842.500000, max=253726.011000, avg=9359.363559, stdev=602179.196414
+*** End of statistics ***
+*** Statistics of Event Engine ***
+Simulation Tick (ps): 338257651971
+Host time duration (sec): 1825.743431
+Event handled: 52425 (28.714330 ops)
+*** End of statistics ***
+End of simulation @ tick 338257651971

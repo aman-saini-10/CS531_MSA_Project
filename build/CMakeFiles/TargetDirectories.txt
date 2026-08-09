@@ -1,0 +1,9 @@
+/home/waqar/SimpleSSD-Standalone/build/CMakeFiles/rebuild_cache.dir
+/home/waqar/SimpleSSD-Standalone/build/CMakeFiles/edit_cache.dir
+/home/waqar/SimpleSSD-Standalone/build/CMakeFiles/simplessd-standalone.dir
+/home/waqar/SimpleSSD-Standalone/build/simplessd/CMakeFiles/rebuild_cache.dir
+/home/waqar/SimpleSSD-Standalone/build/simplessd/CMakeFiles/edit_cache.dir
+/home/waqar/SimpleSSD-Standalone/build/simplessd/CMakeFiles/simplessd.dir
+/home/waqar/SimpleSSD-Standalone/build/simplessd/lib/mcpat/CMakeFiles/rebuild_cache.dir
+/home/waqar/SimpleSSD-Standalone/build/simplessd/lib/mcpat/CMakeFiles/edit_cache.dir
+/home/waqar/SimpleSSD-Standalone/build/simplessd/lib/mcpat/CMakeFiles/mcpat.dir
